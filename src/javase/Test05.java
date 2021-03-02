@@ -17,7 +17,7 @@ public class Test05 {
         Integer i3 = 14;
         Integer i4 = 14;
         int i5 = 14;
-        //Integer.valueOf(13);
+        Integer.valueOf(13);
         System.out.println(i3 == i4); //true Integer缓存 源码如下
         /**
          * IntegerCache.low = -128;
@@ -40,5 +40,8 @@ public class Test05 {
         //对于Integer的缓存机制是个大坑，
         // 阿里开发手册规定整型包装类对象之间值的比较，全部使用 equals 方法比较
 
+        Long l9 = 100L;
+        Integer i9 = 100;
+        System.out.println(l9.equals(i9));
     }
 }

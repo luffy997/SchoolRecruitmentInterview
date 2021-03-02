@@ -42,7 +42,7 @@ public class Test10 {
      */
     public static void main(String[] args) {
         List<Integer> arrayList = new ArrayList<>();
-        List<Integer> linkedListl = new LinkedList<>();
+        List<Integer> linkedList = new LinkedList<>();
 
 
          //Arraylist的初始容量是10，当容量不够时进行扩容，1.5倍扩容（位运算）

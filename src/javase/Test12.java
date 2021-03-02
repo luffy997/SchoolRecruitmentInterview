@@ -7,4 +7,13 @@ package javase;
  * @create 2021/2/26 18:35
  */
 public class Test12 {
+
+    //伪代码
+    /**
+     * C.pre = A;
+     * C.next = A.next;
+     * A.next.pre = C;
+     * A.next = C;
+     *
+     */
 }

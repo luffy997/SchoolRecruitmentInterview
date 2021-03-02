@@ -40,6 +40,7 @@ public class Test01 {
         String str2 = new String("abc").intern();
         System.out.println(str1 == str2);
 
+
         /**
          *3.String str1 = "abc"; String str3 = "ab" + "c"; str1==str2是ture
          * str2会找常量池中是否存在"abc"，如果存在就把str2指向str1，显然str1已经在常量区创建了"abc",== 是对于引用类型是比较地址，所以str1 和
